@@ -25,7 +25,6 @@ fn main() {
         .define("BASISD_SUPPORT_KTX2_ZSTD", "0")
         .define("BASISU_SUPPORT_SSE", "1")
         .flag_if_supported("-msse4.1")
-        
         .flag_if_supported("--std=c++11")
         .file("vendor/basis_universal/encoder/basisu_astc_decomp.cpp")
         .file("vendor/basis_universal/encoder/basisu_backend.cpp")
